@@ -15,8 +15,8 @@ I only attached a sample of the data.
 
 ## Description
 
-Here I process the signalling information, join it with the cell information and visualize a few selected movement chains.
-Data processing involves parsing of the data, filtering the necessary columns and rows (data/00_treated.csv).
-To simulate a privacy step, I hash the imsi column with sha256 algorithm and use the resulting hexadecimal value.
-I'll be looking to only 4 signals.
-Based on the coordinates that can be found in the cell information, one can visualize the movement of these four subscribers (separately). For this I used GoogleMaps API and gmplot package (https://github.com/vgm64/gmplot)
+- Here I process the signalling information, join it with the cell information and visualize a few selected movement chains.
+- Data processing involves parsing of the data, filtering the necessary columns and rows (data/00_treated.csv).
+- To simulate a privacy step, I hash the imsi column with sha256 algorithm and use the resulting hexadecimal value.
+- I'll be looking into only 4 signals.
+- Based on the coordinates that can be found in the cell information, one can visualize the movement of these four subscribers (separately). For this I used GoogleMaps API and gmplot package (https://github.com/vgm64/gmplot)
