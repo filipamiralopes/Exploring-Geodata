@@ -2,6 +2,7 @@
 Exploring Geodata and visualising it using GoogleMaps API.
 
 ##Data
+
 I only attached a sample of the data.
 
 - Radio Cell infrastructure: this data contains the location of the radio towers. The columns cid and area are together the uniq identifiers of the cell tower. The other two columns are the location.
@@ -14,6 +15,7 @@ ts_start, ts_end: signal start and end time
 
 
 ##Description
+
 Here I process the signalling information, join it with the cell information and visualize a few selected movement chains.
 Data processing involves parsing of the data, filtering the necessary columns and rows.
 To simulate a privacy step, I hash the imsi column with sha256 algorithm and use the resulting hexadecimal value.
