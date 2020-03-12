@@ -1,7 +1,7 @@
 # Exploring Geospatial data
 Exploring Geodata and visualising it using GoogleMaps API.
 
-##Data
+## Data
 
 I only attached a sample of the data.
 
@@ -14,7 +14,7 @@ cell_id, area_id: unique identifier of a cell tower
 ts_start, ts_end: signal start and end time
 
 
-##Description
+## Description
 
 Here I process the signalling information, join it with the cell information and visualize a few selected movement chains.
 Data processing involves parsing of the data, filtering the necessary columns and rows.
