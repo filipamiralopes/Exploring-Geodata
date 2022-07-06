@@ -1,4 +1,4 @@
-# Exploring Geospatial data
+# Processing and Visualising Geospatial data
 Exploring Geodata and visualising it using GoogleMaps API.
 
 ## Data
