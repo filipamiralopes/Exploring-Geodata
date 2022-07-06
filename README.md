@@ -1,5 +1,5 @@
 # Processing and Visualising Geospatial data
-Exploring Geodata and visualising it using GoogleMaps API.
+Exploring Geodata and visualising it with Google Maps API.
 
 ## Data
 
